@@ -22723,8 +22723,8 @@
 
 	/** @jsx React.DOM */var React = __webpack_require__(2);
 
-	module.exports = (function(){var ____Class7=React.Component;for(var ____Class7____Key in ____Class7){if(____Class7.hasOwnProperty(____Class7____Key)){____Class6[____Class7____Key]=____Class7[____Class7____Key];}}var ____SuperProtoOf____Class7=____Class7===null?null:____Class7.prototype;____Class6.prototype=Object.create(____SuperProtoOf____Class7);____Class6.prototype.constructor=____Class6;____Class6.__superConstructor__=____Class7;function ____Class6(){"use strict";if(____Class7!==null){____Class7.apply(this,arguments);}}
-	  Object.defineProperty(____Class6.prototype,"render",{writable:true,configurable:true,value:function() {"use strict";
+	module.exports = (function(){var ____Class5=React.Component;for(var ____Class5____Key in ____Class5){if(____Class5.hasOwnProperty(____Class5____Key)){____Class4[____Class5____Key]=____Class5[____Class5____Key];}}var ____SuperProtoOf____Class5=____Class5===null?null:____Class5.prototype;____Class4.prototype=Object.create(____SuperProtoOf____Class5);____Class4.prototype.constructor=____Class4;____Class4.__superConstructor__=____Class5;function ____Class4(){"use strict";if(____Class5!==null){____Class5.apply(this,arguments);}}
+	  Object.defineProperty(____Class4.prototype,"render",{writable:true,configurable:true,value:function() {"use strict";
 	      let rand = Math.ceil(Math.random()*2);
 	      var bg = {backgroundImage: ("url(app/img/2.jpg)")};
 	      return (
@@ -22746,7 +22746,7 @@
 	    )
 	    );
 	  }});
-	return ____Class6;})();
+	return ____Class4;})();
 
 /***/ }),
 /* 194 */
@@ -22755,8 +22755,8 @@
 	/** @jsx React.DOM */var React = __webpack_require__(2);
 	var LgIcon = __webpack_require__(195);
 
-	module.exports = (function(){var ____Class5=React.Component;for(var ____Class5____Key in ____Class5){if(____Class5.hasOwnProperty(____Class5____Key)){____Class4[____Class5____Key]=____Class5[____Class5____Key];}}var ____SuperProtoOf____Class5=____Class5===null?null:____Class5.prototype;____Class4.prototype=Object.create(____SuperProtoOf____Class5);____Class4.prototype.constructor=____Class4;____Class4.__superConstructor__=____Class5;function ____Class4(){"use strict";if(____Class5!==null){____Class5.apply(this,arguments);}}
-	    Object.defineProperty(____Class4.prototype,"render",{writable:true,configurable:true,value:function() {"use strict";
+	module.exports = (function(){var ____Class9=React.Component;for(var ____Class9____Key in ____Class9){if(____Class9.hasOwnProperty(____Class9____Key)){____Class8[____Class9____Key]=____Class9[____Class9____Key];}}var ____SuperProtoOf____Class9=____Class9===null?null:____Class9.prototype;____Class8.prototype=Object.create(____SuperProtoOf____Class9);____Class8.prototype.constructor=____Class8;____Class8.__superConstructor__=____Class9;function ____Class8(){"use strict";if(____Class9!==null){____Class9.apply(this,arguments);}}
+	    Object.defineProperty(____Class8.prototype,"render",{writable:true,configurable:true,value:function() {"use strict";
 
 	        return (
 	            React.createElement("footer", null, 
@@ -22783,7 +22783,7 @@
 	            )
 	        );
 	    }});
-	return ____Class4;})();
+	return ____Class8;})();
 
 /***/ }),
 /* 195 */
@@ -22791,8 +22791,8 @@
 
 	/** @jsx React.DOM */var React = __webpack_require__(2);
 
-	module.exports = (function(){var ____Classf=React.Component;for(var ____Classf____Key in ____Classf){if(____Classf.hasOwnProperty(____Classf____Key)){____Classe[____Classf____Key]=____Classf[____Classf____Key];}}var ____SuperProtoOf____Classf=____Classf===null?null:____Classf.prototype;____Classe.prototype=Object.create(____SuperProtoOf____Classf);____Classe.prototype.constructor=____Classe;____Classe.__superConstructor__=____Classf;function ____Classe(){"use strict";if(____Classf!==null){____Classf.apply(this,arguments);}}
-	  Object.defineProperty(____Classe.prototype,"render",{writable:true,configurable:true,value:function() {"use strict";
+	module.exports = (function(){var ____Classh=React.Component;for(var ____Classh____Key in ____Classh){if(____Classh.hasOwnProperty(____Classh____Key)){____Classg[____Classh____Key]=____Classh[____Classh____Key];}}var ____SuperProtoOf____Classh=____Classh===null?null:____Classh.prototype;____Classg.prototype=Object.create(____SuperProtoOf____Classh);____Classg.prototype.constructor=____Classg;____Classg.__superConstructor__=____Classh;function ____Classg(){"use strict";if(____Classh!==null){____Classh.apply(this,arguments);}}
+	  Object.defineProperty(____Classg.prototype,"render",{writable:true,configurable:true,value:function() {"use strict";
 	    if(this.props.selected) return (
 	        React.createElement("a", {href: this.props.address}, 
 	            React.createElement("span", {className: "fa-stack fa-lg"}, 
@@ -22808,7 +22808,7 @@
 	            )
 	        ));
 	  }});
-	return ____Classe;})()
+	return ____Classg;})()
 
 /***/ }),
 /* 196 */
@@ -22822,24 +22822,63 @@
 	        return (React.createElement("div", {className: "general-fadein"}, 
 	            React.createElement("h1", null, "My Projects"), 
 	            React.createElement("div", null, 
-	                "Below you can find a list of my projects.  Note that professional projects do not have links or any more detail provided for security/privacy.  If you are interested in finding out more about my professional career, please add me on ", React.createElement("a", {target: "_blank", className: "generalLink", href: "https://www.linkedin.com/in/nathan-hoffman-a75994111/"}, "LinkedIn.")
+	                "Below you can find a list of my projects.  If you are interested in finding out more about my professional career, please add me on ", React.createElement("a", {target: "_blank", className: "generalLink", href: "https://www.linkedin.com/in/nathan-hoffman-a75994111/"}, "LinkedIn."), "  If you want to see other more minor personal projects I have worked on, you can visit ", React.createElement("a", {target: "_blank", className: "generalLink", href: "https://github.com/nathanphoffman"}, "my Personal GitHub."), "." 
+	            ), 
+
+
+	            React.createElement("h2", {className: "project-header"}, "2020"), 
+	            React.createElement("div", {className: "row"}, 
+	            React.createElement(Project, {name: "Vexmen Robotics Integration / Support", 
+	                    summary: "Continuing to support the local Brandywine organization website and adding in integration with their ordering system.", 
+	                    tech: "(Professional) MithrilJS, NodeJS, Webscraper", 
+	                    image: "vexmen.png", 
+	                    link: "http://order.vexmen.com/#!/order"}), 
+
+	            React.createElement(Project, {name: "Lost Wizard v2 (In Progress)", 
+	                    summary: "Updating my Lost Wizard game and wrapping it with a VueJS Interface.", 
+	                    tech: "VueJS, PhaserJS, MongoDB", 
+	                    image: "lostwizard.png", 
+	                    link: ""}), 
+
+	            React.createElement(Project, {name: "Periodic Table v2 (In Progress)", 
+	                    summary: "Updating my Periodic Table in React, cleaning it up, and updating the version.", 
+	                    tech: "ReactJS, PhaserJS, MongoDB", 
+	                    image: "periodictable.png", 
+	                    link: ""}), 
+
+	            React.createElement(Project, {name: "Night Ember v2 (In Progress)", 
+	                    summary: "Updating my Night Ember project to use modern Pure JS and not rely on JQuery.", 
+	                    tech: "Pure JS", 
+	                    image: "nightember.png", 
+	                    link: ""})
+
 	            ), 
 
 	            React.createElement("h2", {className: "project-header"}, "2019"), 
 	            React.createElement("div", {className: "row"}, 
-	            React.createElement(Project, {name: "Vexmen Robotics Website (Current)", 
-	                    summary: "Creating a website for a local Brandywine robotics organization and their school kids.", 
-	                    tech: "(Professional) MithrilJS, NodeJS", 
+	            React.createElement(Project, {name: "Vexmen Robotics Website", 
+	                    summary: "Created a website for a local Brandywine robotics organization and their school kids.", 
+	                    tech: "(Professional) MithrilJS, NodeJS, Webscraper", 
 	                    image: "vexmen.png", 
-	                    link: "http://google.com"}
-	                    
-	                    )
+	                    link: "http://order.vexmen.com/#!/order"}), 
+
+	            React.createElement(Project, {name: "JetSense.AI Facebook Integration", 
+	                    summary: "Setup an integration between Facebook and JetSense's chatbot services.", 
+	                    tech: "(Professional) C# .NET Core 2.2, AWS DynamoDB, FB Graph API, FB Messenger.", 
+	                    image: "facebook.png", 
+	                    link: ""}), 
+
+	            React.createElement(Project, {name: "Irrational Calculator", 
+	                    summary: "Created a console application on 24 hour notice as a sample of my work, calculates irrational numbers.", 
+	                    tech: "C# .NET Core 2.2", 
+	                    image: "console.png", 
+	                    link: "https://github.com/nathanphoffman/IrrationalCalculator"})
 	            ), 
 
 	            React.createElement("h2", {className: "project-header"}, "2018"), 
 	            React.createElement("div", {className: "row"}, 
 	            React.createElement(Project, {name: "Forms System (BPM/Workflows)", 
-	                    summary: "Created a new BPM solution; it was a 2-3 year project that finished in 2018 involving: VueJS, Web Api, Azure Service Bus, SQL, and MongoDB Storage.", 
+	                    summary: "Created a BPM solution; it was a 3 year project, completed in 2018 and touched almost every department.", 
 	                    tech: "(Professional) VueJS, Web Api, Azure Service Bus, SQL, and MongoDB Storage", 
 	                    image: "forms.png", 
 	                    link: ""}), 
@@ -22862,7 +22901,7 @@
 	                    tech: "(Professional) C# Web Api, OAuth, Owin, NodeJS, ExpressJS, MongoDB", 
 	                    link: ""}), 
 	                React.createElement(Project, {name: "Operations Checklist Website", 
-	                    summary: "A website which turned an Operations checklist digital.", 
+	                    summary: "A website which turned an Operations checklist digital and streamlined the foreclosure process.", 
 	                    tech: "(Professional) JQuery, C# MVC, SQL, Azure Services, Azure ServiceBus, Azure AD, ADAL.JS", 
 	                    link: "", 
 	                    image: "efc.PNG"}
@@ -22878,15 +22917,15 @@
 	                    link: ""}
 	                    ), 
 	                React.createElement(Project, {name: "Lost Wizard", 
-	                    summary: "I created a framework for PhaserJS which could parse files from the Tiled Map Editor, and use configuration files to create a game.", 
+	                    summary: "I created a framework for PhaserJS which could parse files from the Tiled Map Editor, and used configuration files to create a game.", 
 	                    tech: "JavaScript, PhaserJS", 
 	                    image: "lostwizard.png", 
-	                    link: ""}), 
+	                    link: "/examples/lostwizard/index.html"}), 
 	                React.createElement(Project, {name: "Periodic Table", 
 	                    summary: "A ReactJS experiment to try and render a responsive table manually: it renders in three different forms.", 
 	                    tech: "ReactJS", 
 	                    image: "periodictable.png", 
-	                    link: ""}), 
+	                    link: "/examples/periodictable/index.html"}), 
 	                React.createElement(Project, {name: "Revenue Management Pricing Website", 
 	                    summary: "Extremely complex multiple-table, multiple-screen auto-updating interface.", 
 	                    tech: "(Professional) JQuery, C# MVC, Datatables", 
@@ -22919,13 +22958,19 @@
 	                    summary: "A simple unit conversion app for astronomical units", 
 	                    tech: "JQuery, My Own CSS/Design", 
 	                    image: "nightember.png", 
-	                    link: ""}), 
+	                    link: "/examples/nightember/index.html"}), 
 
 	                React.createElement(Project, {name: "Webiota", 
 	                    summary: "An astronomy site, which led me to landing my first professional job in development. The domain lapsed, screenshots from the wayback machine.", 
 	                    tech: "JQuery, PHP, JavaScript", 
 	                    image: "webiota.png", 
-	                    link: ""})
+	                    link: ""}), 
+
+	                React.createElement(Project, {name: "Photo Gallery", 
+	                    summary: "A simple site using a photo gallery library to show off some of my photos.", 
+	                    tech: "JQuery, PHP, JavaScript", 
+	                    image: "gallery.png", 
+	                    link: "/examples/photogallery/index.html"})
 	            ), 
 
 	            React.createElement("h2", {className: "project-header"}, "pre-2006 (High School)"), 
@@ -22959,9 +23004,11 @@
 
 	module.exports = (function(){var ____Classj=React.Component;for(var ____Classj____Key in ____Classj){if(____Classj.hasOwnProperty(____Classj____Key)){____Classi[____Classj____Key]=____Classj[____Classj____Key];}}var ____SuperProtoOf____Classj=____Classj===null?null:____Classj.prototype;____Classi.prototype=Object.create(____SuperProtoOf____Classj);____Classi.prototype.constructor=____Classi;____Classi.__superConstructor__=____Classj;function ____Classi(){"use strict";if(____Classj!==null){____Classj.apply(this,arguments);}}
 	    Object.defineProperty(____Classi.prototype,"render",{writable:true,configurable:true,value:function() {"use strict";
+	        let lnk = null;
+	        if(this.props.link) lnk = (React.createElement("a", {target: "_blank", href: this.props.link}, React.createElement("i", {className: "fa fa-external-link"}), " ", this.props.name))
 
 	        if (this.props.image) var image = (React.createElement("img", {className: "project-image", src: "app/img/" + this.props.image}));
-	        var content = (React.createElement("div", null, React.createElement("h3", null, this.props.name), 
+	        var content = (React.createElement("div", null, React.createElement("h3", null, lnk || this.props.name), 
 	            React.createElement("span", {className: "project-techText"}, this.props.tech), 
 	            React.createElement("div", null, this.props.summary)));
 
@@ -22985,9 +23032,9 @@
 	/** @jsx React.DOM */var React = __webpack_require__(2);
 	var Post = __webpack_require__(199);
 
-	module.exports = (function(){var ____Class9=React.Component;for(var ____Class9____Key in ____Class9){if(____Class9.hasOwnProperty(____Class9____Key)){____Class8[____Class9____Key]=____Class9[____Class9____Key];}}var ____SuperProtoOf____Class9=____Class9===null?null:____Class9.prototype;____Class8.prototype=Object.create(____SuperProtoOf____Class9);____Class8.prototype.constructor=____Class8;____Class8.__superConstructor__=____Class9;function ____Class8(){"use strict";if(____Class9!==null){____Class9.apply(this,arguments);}}
+	module.exports = (function(){var ____Class7=React.Component;for(var ____Class7____Key in ____Class7){if(____Class7.hasOwnProperty(____Class7____Key)){____Class6[____Class7____Key]=____Class7[____Class7____Key];}}var ____SuperProtoOf____Class7=____Class7===null?null:____Class7.prototype;____Class6.prototype=Object.create(____SuperProtoOf____Class7);____Class6.prototype.constructor=____Class6;____Class6.__superConstructor__=____Class7;function ____Class6(){"use strict";if(____Class7!==null){____Class7.apply(this,arguments);}}
 
-	    Object.defineProperty(____Class8.prototype,"componentWillMount",{writable:true,configurable:true,value:function() {"use strict";
+	    Object.defineProperty(____Class6.prototype,"componentWillMount",{writable:true,configurable:true,value:function() {"use strict";
 
 	        var self = this;
 	        var posts = [];
@@ -23009,7 +23056,7 @@
 	        });
 	    }});
 
-	    Object.defineProperty(____Class8.prototype,"render",{writable:true,configurable:true,value:function() {"use strict";
+	    Object.defineProperty(____Class6.prototype,"render",{writable:true,configurable:true,value:function() {"use strict";
 
 	        var postRender = [];
 	        if (this.state && this.state.posts) this.state.posts.forEach(function(post)  {
@@ -23037,7 +23084,7 @@
 	        else if (this.state && this.state.loaded) return (React.createElement("div", {className: "general-fadeout"}, "Loading Medium Posts..."))
 	        else return (React.createElement("div", null, "Loading Medium Posts..."));
 	    }});
-	return ____Class8;})();
+	return ____Class6;})();
 
 
 /***/ }),
@@ -23047,9 +23094,9 @@
 	/** @jsx React.DOM */
 	var React = __webpack_require__(2);
 
-	module.exports = (function(){var ____Classh=React.Component;for(var ____Classh____Key in ____Classh){if(____Classh.hasOwnProperty(____Classh____Key)){____Classg[____Classh____Key]=____Classh[____Classh____Key];}}var ____SuperProtoOf____Classh=____Classh===null?null:____Classh.prototype;____Classg.prototype=Object.create(____SuperProtoOf____Classh);____Classg.prototype.constructor=____Classg;____Classg.__superConstructor__=____Classh;function ____Classg(){"use strict";if(____Classh!==null){____Classh.apply(this,arguments);}}
+	module.exports = (function(){var ____Classf=React.Component;for(var ____Classf____Key in ____Classf){if(____Classf.hasOwnProperty(____Classf____Key)){____Classe[____Classf____Key]=____Classf[____Classf____Key];}}var ____SuperProtoOf____Classf=____Classf===null?null:____Classf.prototype;____Classe.prototype=Object.create(____SuperProtoOf____Classf);____Classe.prototype.constructor=____Classe;____Classe.__superConstructor__=____Classf;function ____Classe(){"use strict";if(____Classf!==null){____Classf.apply(this,arguments);}}
 
-	    Object.defineProperty(____Classg.prototype,"render",{writable:true,configurable:true,value:function() {"use strict";
+	    Object.defineProperty(____Classe.prototype,"render",{writable:true,configurable:true,value:function() {"use strict";
 
 	        var formatDate = function (date){
 	            return (date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear();
@@ -23071,7 +23118,7 @@
 	            )
 	        );
 	    }});
-	return ____Classg;})();
+	return ____Classe;})();
 
 /***/ }),
 /* 200 */
@@ -23088,7 +23135,7 @@
 	                        ), 
 	                        React.createElement("h2", null, "Programming"), 
 	                        React.createElement("div", null, 
-	                                "In the late 80s I was born into a basement which was flooded with Commodore 64 Amiga hardware and software from my dad’s closed computer shop business.  For many years, my brother and I discovered treasures from the shop in old boxes and storage.  In my preteen years my dad handed me the Second Edition C book by Brian and Dennis, and I began building both my first programs and my first computers. By high school I was creating websites for friends who had parents with businesses, and I joined computer LAN groups who hosted LAN parties.  Today, many years later, I continue my career in code, working as an Application Developer, and providing full stack development for a REIT company.  I also find myself coding in my spare time and my code can be found on GitHub.  Currently my main talents are in the web specifically with React, Vue, C#, Node, MongoDB and the cloud services Azure and AWS."
+	                                "In the late 80s I was born into a basement which was flooded with Commodore 64 Amiga hardware and software from my dad’s closed computer shop business.  For many years, my brother and I discovered treasures from the shop in old boxes and storage.  In my preteen years my dad handed me the Second Edition C book by Brian Kernighan and Dennis Ritchie, and I began building both my first programs and my first computers. By high school I was creating websites for friends who had parents with businesses, and building computers for their families. I joined computer LAN groups and hosted one of my own.  Today, many years later, I continue my career in code, having worked as an Application Developer for a REIT company and a Senior Software Developer for a startup.  I also find myself coding in my spare time and my code can be found on GitHub.  Currently my main talents are in the web specifically with React, Vue, C#, Node, MongoDB and the cloud services Azure and AWS."
 	                        ), 
 
 	                        React.createElement("h2", null, "Astronomy"), 

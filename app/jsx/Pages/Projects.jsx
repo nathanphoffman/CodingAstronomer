@@ -6,24 +6,63 @@ module.exports = class extends React.Component {
         return (<div className="general-fadein">
             <h1>My Projects</h1>
             <div>
-                Below you can find a list of my projects.  Note that professional projects do not have links or any more detail provided for security/privacy.  If you are interested in finding out more about my professional career, please add me on <a target="_blank" className="generalLink" href="https://www.linkedin.com/in/nathan-hoffman-a75994111/">LinkedIn.</a>
+                Below you can find a list of my projects.  If you are interested in finding out more about my professional career, please add me on <a target="_blank" className="generalLink" href="https://www.linkedin.com/in/nathan-hoffman-a75994111/">LinkedIn.</a>  If you want to see other more minor personal projects I have worked on, you can visit <a target="_blank" className="generalLink" href="https://github.com/nathanphoffman">my Personal GitHub.</a>. 
+            </div>
+
+
+            <h2 className="project-header">2020</h2>
+            <div className="row">
+            <Project name="Vexmen Robotics Integration / Support"
+                    summary="Continuing to support the local Brandywine organization website and adding in integration with their ordering system."
+                    tech="(Professional) MithrilJS, NodeJS, Webscraper"
+                    image="vexmen.png"
+                    link="http://order.vexmen.com/#!/order" />
+
+            <Project name="Lost Wizard v2 (In Progress)"
+                    summary="Updating my Lost Wizard game and wrapping it with a VueJS Interface."
+                    tech="VueJS, PhaserJS, MongoDB"
+                    image="lostwizard.png"
+                    link="" />
+
+            <Project name="Periodic Table v2 (In Progress)"
+                    summary="Updating my Periodic Table in React, cleaning it up, and updating the version."
+                    tech="ReactJS, PhaserJS, MongoDB"
+                    image="periodictable.png"
+                    link="" />
+
+            <Project name="Night Ember v2 (In Progress)"
+                    summary="Updating my Night Ember project to use modern Pure JS and not rely on JQuery."
+                    tech="Pure JS"
+                    image="nightember.png"
+                    link="" />
+
             </div>
 
             <h2 className="project-header">2019</h2>
             <div className="row">
-            <Project name="Vexmen Robotics Website (Current)"
-                    summary="Creating a website for a local Brandywine robotics organization and their school kids."
-                    tech="(Professional) MithrilJS, NodeJS"
+            <Project name="Vexmen Robotics Website"
+                    summary="Created a website for a local Brandywine robotics organization and their school kids."
+                    tech="(Professional) MithrilJS, NodeJS, Webscraper"
                     image="vexmen.png"
-                    link="http://google.com"
-                    
-                    />
+                    link="http://order.vexmen.com/#!/order" />
+
+            <Project name="JetSense.AI Facebook Integration"
+                    summary="Setup an integration between Facebook and JetSense's chatbot services."
+                    tech="(Professional) C# .NET Core 2.2, AWS DynamoDB, FB Graph API, FB Messenger."
+                    image="facebook.png"
+                    link="" />
+
+            <Project name="Irrational Calculator"
+                    summary="Created a console application on 24 hour notice as a sample of my work, calculates irrational numbers."
+                    tech="C# .NET Core 2.2"
+                    image="console.png"
+                    link="https://github.com/nathanphoffman/IrrationalCalculator" />
             </div>
 
             <h2 className="project-header">2018</h2>
             <div className="row">
             <Project name="Forms System (BPM/Workflows)"
-                    summary="Created a new BPM solution; it was a 2-3 year project that finished in 2018 involving: VueJS, Web Api, Azure Service Bus, SQL, and MongoDB Storage."
+                    summary="Created a BPM solution; it was a 3 year project, completed in 2018 and touched almost every department."
                     tech="(Professional) VueJS, Web Api, Azure Service Bus, SQL, and MongoDB Storage"
                     image="forms.png"
                     link="" />
@@ -46,7 +85,7 @@ module.exports = class extends React.Component {
                     tech="(Professional) C# Web Api, OAuth, Owin, NodeJS, ExpressJS, MongoDB"
                     link="" />
                 <Project name="Operations Checklist Website"
-                    summary="A website which turned an Operations checklist digital."
+                    summary="A website which turned an Operations checklist digital and streamlined the foreclosure process."
                     tech="(Professional) JQuery, C# MVC, SQL, Azure Services, Azure ServiceBus, Azure AD, ADAL.JS"
                     link=""
                     image="efc.PNG"
@@ -62,15 +101,15 @@ module.exports = class extends React.Component {
                     link="" 
                     />
                 <Project name="Lost Wizard"
-                    summary="I created a framework for PhaserJS which could parse files from the Tiled Map Editor, and use configuration files to create a game."
+                    summary="I created a framework for PhaserJS which could parse files from the Tiled Map Editor, and used configuration files to create a game."
                     tech="JavaScript, PhaserJS"
                     image="lostwizard.png"
-                    link="" />
+                    link="/examples/lostwizard/index.html" />
                 <Project name="Periodic Table"
                     summary="A ReactJS experiment to try and render a responsive table manually: it renders in three different forms."
                     tech="ReactJS"
                     image="periodictable.png"
-                    link="" />
+                    link="/examples/periodictable/index.html" />
                 <Project name="Revenue Management Pricing Website"
                     summary="Extremely complex multiple-table, multiple-screen auto-updating interface."
                     tech="(Professional) JQuery, C# MVC, Datatables"
@@ -103,13 +142,19 @@ module.exports = class extends React.Component {
                     summary="A simple unit conversion app for astronomical units"
                     tech="JQuery, My Own CSS/Design"
                     image="nightember.png"
-                    link="" />
+                    link="/examples/nightember/index.html" />
 
                 <Project name="Webiota"
                     summary="An astronomy site, which led me to landing my first professional job in development. The domain lapsed, screenshots from the wayback machine."
                     tech="JQuery, PHP, JavaScript"
                     image="webiota.png"
                     link="" />
+
+                <Project name="Photo Gallery"
+                    summary="A simple site using a photo gallery library to show off some of my photos."
+                    tech="JQuery, PHP, JavaScript"
+                    image="gallery.png"
+                    link="/examples/photogallery/index.html" />
             </div>
 
             <h2 className="project-header">pre-2006 (High School)</h2>

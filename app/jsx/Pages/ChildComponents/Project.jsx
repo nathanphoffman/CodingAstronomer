@@ -2,9 +2,11 @@ var React = require('react');
 
 module.exports = class extends React.Component {
     render() {
+        let lnk = null;
+        if(this.props.link) lnk = (<a target="_blank" href={this.props.link}><i className="fa fa-external-link"></i> {this.props.name}</a>)
 
         if (this.props.image) var image = (<img className="project-image" src={"app/img/" + this.props.image} />);
-        var content = (<div><h3>{this.props.name}</h3>
+        var content = (<div><h3>{lnk || this.props.name}</h3>
             <span className="project-techText">{this.props.tech}</span>
             <div>{this.props.summary}</div></div>);
 
