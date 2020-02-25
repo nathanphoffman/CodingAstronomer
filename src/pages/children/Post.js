@@ -15,7 +15,7 @@ class Post extends React.Component {
                 <div>
                 Posted on Medium: {formatDate(new Date(this.props.date))}
                 </div>
-                <p dangerouslySetInnerHTML={{__html: this.props.body.replace(/<img[^>]*>/g,"")}} />
+                <p dangerouslySetInnerHTML={{__html: this.props.body.replace(/<img[^>]*>/g,"").replace(/<h3[^>]*>/g,"")}} />
                 <ul className="pager">
                     <li className="next">
                         <a href={this.props.link} target="_blank" rel="noopener noreferrer">View Full Post (With Images)</a>
